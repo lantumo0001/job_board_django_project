@@ -1,0 +1,13 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      {%for job_posting in active_jobs %}
+          <li>{{job_posting.title}} |{{job_posting.company}} </li>
+      {% endfor %}
+   
+    </ul>
+  </body>
+</html>
